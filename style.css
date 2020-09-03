@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-color: grey;
+  font-family: cursive;
+  text-color: blue;
+}
+
+survey-form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.row-tab {
+  display: block;
+  padding: 10px;
+}
+
+.select-input {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+}
+
+.input-select {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+}
+
+.labels-radio {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  vertical-align: top;
+}
+
+.input-radio {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+}
+
+.checkbox-labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  vertical-align: top;
+}
+
+.checkbox-input {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+}

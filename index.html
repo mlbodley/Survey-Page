@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <div class="main-form">
+    <h1 style="background-color: silver; id=" title">Side Chick Survey</h1>
+    <p id="description">This is your chance to open up as the side piece you are. Enjoy Fam.</p>
+
+    <form action="submit" id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" name="nameField" id="name" placeholder="What they call you G" required>
+
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" name="emailField" id="email" placeholder="Drop ya Gmail" required>
+
+      <label for="number" id="number-label">How messy are you on a scale from 1-10</label>
+      <input type="number" name="numberField" id="number" min="1" max="10" placeholder="5" required>
+
+      <label for="dropdown">How long have you been a mistress?</label>
+      <select name="dropdown" id="dropdown">
+        <option value="1">Since I turned 18</option>
+        <option value="2">I just started frfr</option>
+        <option value="3">After a few situationships</option>
+        <option value="4">Foreva (Cardi voice)</option>
+      </select>
+
+      <div class="radioButtons">
+        <p>What's your Main Social Media?</p>
+        <input type="radio" name="social" id="facebook" value="social">
+        <label for="facebook">Facebook</label>
+
+        <input type="radio" name="social" id="twitter" value="social">
+        <label for="twitter">Twitter</label>
+
+        <input type="radio" name="social" id="instagram" value="social">
+        <label for="instagram">Instagram</label>
+
+        <input type="radio" name="social" id="tiktok" value="social">
+        <label for="tiktok">TikTok</label>
+
+      </div> <!-- End of .radioButtons -->
+
+      <textarea name="message" id="message" cols="30" rows="10" placeholder="How did this end up being your life? Explain."></textarea>
+      <p>What do you achieve the most being a sideline player?
+        <div class="checkButtons">
+          <input type="checkbox" name="goal" id="sex" value="sex">
+          <label for="">Sex</label>
+
+          <input type="checkbox" name="goal" id="money" value="money">
+          <label for="">Money</label>
+
+          <input type="checkbox" name="goal" id="comfort" value="comfort">
+          <label for="">Comfort</label>
+
+          <input type="checkbox" name="goal" id="drugs" value="drugs">
+          <label>Drugs</label>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+
+    </form>
+  </div>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
